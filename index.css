@@ -1,0 +1,78 @@
+@font-face{
+   font-family: 'Orange Kid';
+    src: url('fonts/OrangeKid-Regular.woff2') format('woff2'),
+        url('fonts/OrangeKid-Regular.woff') format('woff'),
+        url('fonts/OrangeKid-Regular.otf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{box-sizing: border-box; }
+
+body {
+    font-family: 'Orange Kid', Arial, sans-serif;
+    font-size: 60;
+    font-weight: 400;
+    background-color: hsl(247, 93%, 59%);
+    margin: 0;
+    padding: 20px;
+}
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Orange Kid', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    display:block;
+    margin-top:150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    width: 400px;
+    height: 80px;
+    color: rgb(221, 250, 5);
+    background-color: rgb(59, 59, 250);
+    border: solid 4px rgb(2, 252, 127);
+    border-radius: 35px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #f304f7;
+}
+.gallery {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: repeat(8, 64px);
+    grid-auto-rows: 64px;
+    gap: 0;
+    width: 512px;
+    margin: 20px auto 0;
+    padding: 0;
+    border: 4px solid rgb(5, 244, 5);
+    border-radius: 20px;
+    height: auto;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+/* ------------------------------
+   Scratchpad / Experiments
+   (not active in final design)
+------------------------------ */
+  /*border-image: repeating-linear-gradient(
+        to right,
+         rgb(255, 0, 0) 0 80px,
+         yellow 80px 160px,
+         blue 160px 240px) 1;
+    border-image-radius: 20px;*/

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Orange Kid';
+    src: url('OrangeKid-Regular.woff2') format('woff2'),
+        url('OrangeKid-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
