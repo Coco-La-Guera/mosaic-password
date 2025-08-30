@@ -6,8 +6,7 @@ I aimed for the simplest, beginner-friendly code: a gallery grid, a small image 
 Future idea: create a token (or seed) so users can regenerate or save their pattern. ChatGPT helped me reason through the grid display and the loop that strings images together.
 
 ## Live Demo
-👉 [View on Netlify](https://your-site.netlify.app)  <!-- update after deploy -->
-
+👉 [View on GitHub Pages]https://coco-la-guera.github.io/mosaic-password/
 ## How it works
 - Uses a **CSS Grid gallery**: 512 px wide, `height: auto`
 - Each tile is **64×64 px**, filling an 8-tile row
